@@ -43,6 +43,7 @@ guess = gets
 
 if number == guess
   puts "Well done! You got it right!"
+  exit
 elsif number < guess
   puts "Nope.... lower"
 elsif number > guess
@@ -55,6 +56,7 @@ guess = gets
 
 if number == guess
   puts "Well done! You got it right!"
+  exit
 elsif number < guess
   puts "Nope.... lower"
 elsif number > guess
@@ -67,6 +69,7 @@ guess = gets
 
 if number == guess
   puts "Well done! You got it right!"
+  exit
 elsif number < guess
   puts "Nope.... lower"
 elsif number > guess
@@ -79,6 +82,7 @@ guess = gets
 
 if number == guess
   puts "Well done! You got it right!"
+  exit
 elsif number < guess
   puts "Nope.... lower"
 elsif number > guess
@@ -91,6 +95,7 @@ guess = gets
 
 if number == guess
   puts "Well done! You got it right!"
+  exit
 elsif number < guess
   puts "Nope.... lower"
 elsif number > guess
