@@ -41,6 +41,8 @@ loop do
   print "Guess: "
   guess = gets
 
+  exit if guess.strip == "exit"
+
   if number == guess
     puts "Well done! You got it right!"
     exit
