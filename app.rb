@@ -31,24 +31,23 @@
 require 'io/console'
 
 print "Player 1, pick a number: "
-number = STDIN.noecho(&:gets)
+number = STDIN.noecho(&:gets).to_i
 
 puts
 puts "Player 2, try to guess the number!"
 
-
 loop do
   print "Guess: "
-  guess = gets
+  guess = gets.strip
 
-  exit if guess.strip == "exit"
+  exit if guess == "exit"
 
-  if number == guess
+  if number == guess.to_i
     puts "Well done! You got it right!"
     exit
-  elsif number < guess
+  elsif number < guess.to_i
     puts "Nope.... lower"
-  elsif number > guess
+  elsif number > guess.to_i
     puts "Nope.... higher"
   end
 end
