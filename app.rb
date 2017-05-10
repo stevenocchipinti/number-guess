@@ -35,6 +35,57 @@ number = STDIN.noecho(&:gets)
 
 puts
 puts "Player 2, try to guess the number!"
+
+
+# Guess #1
+print "Guess: "
+guess = gets
+
+if number == guess
+  puts "Well done! You got it right!"
+elsif number < guess
+  puts "Nope.... lower"
+elsif number > guess
+  puts "Nope.... higher"
+end
+
+# Guess #2
+print "Guess: "
+guess = gets
+
+if number == guess
+  puts "Well done! You got it right!"
+elsif number < guess
+  puts "Nope.... lower"
+elsif number > guess
+  puts "Nope.... higher"
+end
+
+# Guess #3
+print "Guess: "
+guess = gets
+
+if number == guess
+  puts "Well done! You got it right!"
+elsif number < guess
+  puts "Nope.... lower"
+elsif number > guess
+  puts "Nope.... higher"
+end
+
+# Guess #4
+print "Guess: "
+guess = gets
+
+if number == guess
+  puts "Well done! You got it right!"
+elsif number < guess
+  puts "Nope.... lower"
+elsif number > guess
+  puts "Nope.... higher"
+end
+
+# Guess #5
 print "Guess: "
 guess = gets
 
