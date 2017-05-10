@@ -37,7 +37,7 @@ puts
 puts "Player 2, try to guess the number!"
 
 
-5.times do
+loop do
   print "Guess: "
   guess = gets
 
