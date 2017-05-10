@@ -37,67 +37,18 @@ puts
 puts "Player 2, try to guess the number!"
 
 
-# Guess #1
-print "Guess: "
-guess = gets
+5.times do
+  print "Guess: "
+  guess = gets
 
-if number == guess
-  puts "Well done! You got it right!"
-  exit
-elsif number < guess
-  puts "Nope.... lower"
-elsif number > guess
-  puts "Nope.... higher"
+  if number == guess
+    puts "Well done! You got it right!"
+    exit
+  elsif number < guess
+    puts "Nope.... lower"
+  elsif number > guess
+    puts "Nope.... higher"
+  end
 end
 
-# Guess #2
-print "Guess: "
-guess = gets
-
-if number == guess
-  puts "Well done! You got it right!"
-  exit
-elsif number < guess
-  puts "Nope.... lower"
-elsif number > guess
-  puts "Nope.... higher"
-end
-
-# Guess #3
-print "Guess: "
-guess = gets
-
-if number == guess
-  puts "Well done! You got it right!"
-  exit
-elsif number < guess
-  puts "Nope.... lower"
-elsif number > guess
-  puts "Nope.... higher"
-end
-
-# Guess #4
-print "Guess: "
-guess = gets
-
-if number == guess
-  puts "Well done! You got it right!"
-  exit
-elsif number < guess
-  puts "Nope.... lower"
-elsif number > guess
-  puts "Nope.... higher"
-end
-
-# Guess #5
-print "Guess: "
-guess = gets
-
-if number == guess
-  puts "Well done! You got it right!"
-  exit
-elsif number < guess
-  puts "Nope.... lower"
-elsif number > guess
-  puts "Nope.... higher"
-end
+puts "Game Over!"
