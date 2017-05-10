@@ -13,6 +13,13 @@ Exercises
 At the top of `app.rb` there are some comments with exercises to complete.
 
 
+Solutions
+---------
+
+There is a branch called `solutions` that has a separate commit for the solution
+to each exercise.
+
+
 How to run it
 -------------
 
