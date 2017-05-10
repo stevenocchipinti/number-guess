@@ -40,15 +40,22 @@ number = STDIN.noecho(&:gets).to_i
 puts
 puts "Player 2, try to guess the number!"
 
+guesses = 0
 loop do
   print "Guess: "
   guess = gets.strip
+  guesses += 1
 
-  exit if guess == "exit"
+  if guess == "exit"
+    puts
+    puts "-- GAME OVER! --"
+    break
+  end
 
   if number == guess.to_i
+    puts
     puts "Well done! You got it right!"
-    exit
+    break
   elsif number < guess.to_i
     puts "Nope.... lower"
   elsif number > guess.to_i
@@ -56,4 +63,4 @@ loop do
   end
 end
 
-puts "Game Over!"
+puts "Score: #{guesses}"
